@@ -112,7 +112,9 @@ def main():
     # SECCIÓN 3: IMPACTO ECONÓMICO 
     # ==========================================
     
-    st.subheader("Reportes y sus precios")
+    st.subheader("3. Reportes y sus precios 📉")
+    
+    st.markdown("En los siguientes elementos se detalla cuanto tiempo debe invertir un trabajador con sueldo promedio para comprar su moto")
     
     
     df_robos_moto = pd.DataFrame({
